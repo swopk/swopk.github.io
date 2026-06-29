@@ -1,17 +1,41 @@
 title: "Swopnil's Daily Stories"
-email: ""
+name: "Swopnil Kalika"
 description: "One story every day."
-baseurl: ""
 url: "https://swopnilkalika.com.np"
+baseurl: ""
 
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:
+  - jekyll-include-cache
   - jekyll-feed
   - jekyll-seo-tag
 
 author:
   name: "Swopnil Kalika"
+  bio: "Challenging myself to write and post one short story every single day without any internet research"
+  location: "Nepal"
 
-header_pages:
-  - about.md
+minimal_mistakes_skin: "air"
+
+search: true
+
+atom_feed:
+  hide: false
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
