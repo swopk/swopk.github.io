@@ -1,0 +1,17 @@
+title: "Swopnil's Daily Stories"
+email: ""
+description: "One story every day."
+baseurl: ""
+url: "https://swopnilkalika.com.np"
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+author:
+  name: "Swopnil Kalika"
+
+header_pages:
+  - about.md
