@@ -1,7 +1,7 @@
 ---
-layout: page
-title: About
+title: "About"
 permalink: /about/
+author_profile: true
 ---
 
 I am Swopnil Kalika.
