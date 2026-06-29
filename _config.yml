@@ -14,7 +14,7 @@ plugins:
 author:
   name: "Swopnil Kalika"
   bio: "Challenging myself to write and post one short story every single day without any internet research"
-  location: "Nepal"
+  #location: "Nepal"
 
 minimal_mistakes_skin: "air"
 
